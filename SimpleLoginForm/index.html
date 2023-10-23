@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login page</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login">
+        <div class="login-top">
+          <h1 class="login-top__title">Login Form</h1>
+        </div>
+        <div class="login-form">
+          <form action="">
+            <div class="login-form__input">
+              <div class="login-form__input-icon">
+                <i class="fa-solid fa-user login-form__input-icon__item"></i>
+              </div>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email please"
+                required
+              />
+            </div>
+            <div class="login-form__input">
+              <div class="login-form__input-icon">
+                <i class="fa-solid fa-lock login-form__input-icon__item"></i>
+              </div>
+              <input
+                type="password"
+                name="password"
+                id="password-input"
+                placeholder="Enter your password please"
+                required
+              />
+              <i class="fa-solid fa-eye show-password"></i>
+            </div>
+            <p class="forget-password__message">Forgot password?</p>
+            <button class="login-button">Login</button>
+            <p class="not-member-question">
+              Not a member? <a href="#" class="signup-link">Signup now</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
